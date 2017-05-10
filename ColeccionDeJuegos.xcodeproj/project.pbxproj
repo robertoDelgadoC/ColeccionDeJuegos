@@ -13,6 +13,7 @@
 		624ADB331EC13A76001C9CF6 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 624ADB311EC13A76001C9CF6 /* ColeccionDeJuegos.xcdatamodeld */; };
 		624ADB351EC13A76001C9CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624ADB341EC13A76001C9CF6 /* Assets.xcassets */; };
 		624ADB381EC13A76001C9CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624ADB361EC13A76001C9CF6 /* LaunchScreen.storyboard */; };
+		62F40B951EC186B900E23D89 /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F40B941EC186B900E23D89 /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		624ADB341EC13A76001C9CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624ADB371EC13A76001C9CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		624ADB391EC13A76001C9CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F40B941EC186B900E23D89 /* JuegoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				624ADB361EC13A76001C9CF6 /* LaunchScreen.storyboard */,
 				624ADB391EC13A76001C9CF6 /* Info.plist */,
 				624ADB311EC13A76001C9CF6 /* ColeccionDeJuegos.xcdatamodeld */,
+				62F40B941EC186B900E23D89 /* JuegoViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				624ADB2D1EC13A76001C9CF6 /* ViewController.swift in Sources */,
+				62F40B951EC186B900E23D89 /* JuegoViewController.swift in Sources */,
 				624ADB2B1EC13A76001C9CF6 /* AppDelegate.swift in Sources */,
 				624ADB331EC13A76001C9CF6 /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -303,6 +307,7 @@
 				624ADB3E1EC13A76001C9CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
